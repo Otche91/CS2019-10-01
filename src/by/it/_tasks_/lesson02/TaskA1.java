@@ -8,8 +8,8 @@ Hello world!
 Для автоматической проверки откройте и запустите класс Testing
 */
 
-class TaskA1 {
+class Hello {
     public static void main(String[] args) {
-
+      System.out.println("Hello world!");
     }
 }
