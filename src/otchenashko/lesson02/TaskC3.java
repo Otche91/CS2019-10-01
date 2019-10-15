@@ -1,7 +1,5 @@
 package otchenashko.lesson02;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.util.Scanner;
 
 /*
@@ -35,26 +33,25 @@ import java.util.Scanner;
 */
 class TaskC3 {
 
-    public static class Main {
-        private static final double G_EARTH = 9.81;
-        private static final double G_MARS = 3.86;
-
-        public static void main(final String[] args) {
-            final Scanner scanner = new Scanner(System.in);
-            final int weight = scanner.nextInt();
-            double z = 9.81;
-            double y = 3.86;
-            double n = y / z;
-            double a = weight * n;
-            double roundOff = (double) Math.round(a*100)/100;
-
-            System.out.println(roundOff);
-        }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int we = sc.nextInt();
+        double wm = getWeight(we);
+        System.out.println(wm);
+    }
 
 
-
+    private static double getWeight(int we) {
+        double wm = we / 9.81 * 3.86;
+        double wm100 = wm * 100;
+        double delta = wm100 - (int) wm100;
+        if (delta < 0.5)
+            return (int) wm100 / 100.0;
+        else
+            return ((int) wm100 + 1) / 100.0;
     }
 }
+
 
 
 
