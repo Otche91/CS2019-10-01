@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson05;
+package by.it.otchenashko.lesson05;
 
 /* Массив из чисел в обратном порядке
 1. Создать массив на 10 чисел.
@@ -24,13 +24,12 @@ package by.it._tasks_.lesson05;
 */
 
 
+import java.util.Scanner;
+
 public class TaskA1 {
     public static void main(String[] args) {
-        int[] array=int [10];
+        int[] array=new int[10];
         Scanner sc=new Scanner(System.in);
-        for(int i=array.lenght -1; i>=0; i--) {
-            array[i]=sc.next
-        }
     }
 
 }

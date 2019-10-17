@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson06;
+package by.it.otchenashko.lesson06;
 
 /*
     toString() для класса Dog
@@ -25,5 +25,8 @@ package by.it._tasks_.lesson06;
 
 */
 public class TaskA2 {
+    public static void main(String[] args) {
+        Dog dog1=new Dog("Шарик",5);
+    }
 
 }

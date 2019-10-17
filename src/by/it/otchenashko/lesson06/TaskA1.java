@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson06;
+package by.it.otchenashko.lesson06;
 
 /*
 Геттеры и сеттеры для класса Dog
@@ -28,14 +28,21 @@ package by.it._tasks_.lesson06;
 */
 
 
+import by.it.otchenashko.lesson06.Dog;
 
 public class TaskA1 {
     public static void main(String[] args) {
-        class Dog {
-            String name =
-            int age
-
-        }
+        Dog dog1=new Dog();
+        dog1.setName("Шарик");
+        dog1.setAge(5);
+        Dog dog2=new Dog();
+        dog2.setName("Тузик");
+        dog2.setAge(3);
+        System.out.println(dog1.getName() +" "+dog1.getAge());
+        System.out.println(dog2.getName() +" "+dog2.getAge());
     }
 
-}
+
+        }
+
+
