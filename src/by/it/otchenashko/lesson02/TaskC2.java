@@ -1,4 +1,4 @@
-package otchenashko.lesson02;
+package by.it.otchenashko.lesson02;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

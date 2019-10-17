@@ -1,4 +1,4 @@
-package otchenashko.lesson03;
+package by.it.otchenashko.lesson03;
 
 /*
 Lesson 03. Конвертер температуры

@@ -1,4 +1,4 @@
-package otchenashko.lesson03;
+package by.it.otchenashko.lesson03;
 /*
     Сумма цифр четырехзначного числа
 

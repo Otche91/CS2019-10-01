@@ -1,4 +1,4 @@
-package otchenashko.lesson02;
+package by.it.otchenashko.lesson02;
 /*
 Измените переменные и строку вывода в программе так,
 чтобы она рассчитывала и печатала следующее выражение
